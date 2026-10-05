@@ -28,6 +28,13 @@ backend/storage/sessions/
 backend/storage/test_output/
 
 
+# Local ML/TTS models
+backend/app/core/models/
+
+# Generated audio
+*.wav
+*.mp3
+
 # IDE
 .vscode/
 .idea/
